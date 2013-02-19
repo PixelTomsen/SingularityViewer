@@ -66,7 +66,7 @@
 	<string name="Quit">Beenden</string>
 
 	<!-- Disconnection -->
-	<string name="AgentLostConnection">This region may be experiencing trouble.  Please check your connection to the Internet.</string>
+	<string name="AgentLostConnection">In dieser Region kann es zu Problemen kommen.  Bitte überprüfe Deine Internetverbindung.</string>
 	<string name="SavingSettings">Deine Einstellungen werden gespeichert...</string>
 	<string name="LoggingOut">Abmeldung erfolgt...</string>
 	<string name="ShuttingDown">Programm wird beendet...</string>
@@ -113,13 +113,13 @@
 	<string name="TooltipDragOntoSelf">You can't move a folder into itself</string>
 
 	<!-- searching - generic -->
-	<string name="Searching">Searching...</string>
-	<string name="NoneFound">None found.</string>
+	<string name="Searching">Suchen...</string>
+	<string name="NoneFound">Nicht gefunden.</string>
 
 	<!-- Indicates that an avatar's name or other similar datum is being retrieved. General usage. -->
-	<string name="RetrievingData">Retrieving...</string>
+	<string name="RetrievingData">Laden...</string>
 
-	<string name="ReleaseNotes">Release Notes</string>
+	<string name="ReleaseNotes">Versionshinweise</string>
 
 	<!-- Indicates something is being loaded. Maybe should be merged with RetrievingData -->
 	<string name="LoadingData">Lade...</string>
@@ -193,9 +193,9 @@
 
 	<!-- llvoavatar. Displayed in the avatar's chat bubble -->
 	<string name="AvatarEditingAppearance">(Editing Appearance)</string>
-	<string name="AvatarAway">Away</string>
-	<string name="AvatarBusy">Busy</string>
-	<string name="AvatarMuted">Muted</string>
+	<string name="AvatarAway">Abwesend</string>
+	<string name="AvatarBusy">Beschäftigt</string>
+	<string name="AvatarMuted">Stumm</string>
 	<!-- "AvatarLangolier" is used for an avatar that teleported into a Time Frozen scene (only their moving tag is visible).
 		 A Langolier is a creature from Stephen Kings "The Langoliers" that exists outside time and lives by eating the past. -->
 	<string name="AvatarLangolier">Langolier</string>
@@ -4021,35 +4021,35 @@ If you continue to receive this message, contact the [SUPPORT_SITE].
 
   <string name="group_role_everyone">Everyone</string>
   <string name="group_role_officers">Officers</string>
-  <string name="group_role_owners">Owners</string>
+  <string name="group_role_owners">Eigentümer</string>
   <string name="group_member_status_online">Online</string>
 
-  <string name="uploading_abuse_report">Uploading...
+  <string name="uploading_abuse_report">Bericht wird hochgeladen...
 
 Abuse Report</string>
 
   <!-- names for new inventory items-->
-  <string name="New Shape">New Shape</string>
-  <string name="New Skin">New Skin</string>
-  <string name="New Hair">New Hair</string>
-  <string name="New Eyes">New Eyes</string>
-  <string name="New Shirt">New Shirt</string>
-  <string name="New Pants">New Pants</string>
-  <string name="New Shoes">New Shoes</string>
-  <string name="New Socks">New Socks</string>
-  <string name="New Jacket">New Jacket</string>
-  <string name="New Gloves">New Gloves</string>
-  <string name="New Undershirt">New Undershirt</string>
-  <string name="New Underpants">New Underpants</string>
-  <string name="New Skirt">New Skirt</string>
-  <string name="New Alpha">New Alpha</string>
-  <string name="New Tattoo">New Tattoo</string>
-  <string name="New Physics">New Physics</string>
-  <string name="Invalid Wearable">Invalid Wearable</string>
-  <string name="New Gesture">New Gesture</string>
-  <string name="New Script">New Script</string>
-  <string name="New Note">New Note</string>
-  <string name="New Folder">New Folder</string>
+  <string name="New Shape">Neue Form/Gestalt</string>
+  <string name="New Skin">Neue Haut</string>
+  <string name="New Hair">Neues Haar</string>
+  <string name="New Eyes">Neue Augen</string>
+  <string name="New Shirt">Neues Hemd</string>
+  <string name="New Pants">Neue Hose</string>
+  <string name="New Shoes">Neue Schuhe</string>
+  <string name="New Socks">Neue Socken</string>
+  <string name="New Jacket">Neue Jacke</string>
+  <string name="New Gloves">Neue Handschuhe</string>
+  <string name="New Undershirt">Neues Unterhemd</string>
+  <string name="New Underpants">Neue Unterhose</string>
+  <string name="New Skirt">Neuer Rock</string>
+  <string name="New Alpha">Neues Alpha</string>
+  <string name="New Tattoo">Neue Tätowierung</string>
+  <string name="New Physics">Neue Physik</string>
+  <string name="Invalid Wearable">Ungültiges Objekt</string>
+  <string name="New Gesture">Neue Geste</string>
+  <string name="New Script">Neues Skript</string>
+  <string name="New Note">Neue Notiz</string>
+  <string name="New Folder">Neuer Ordner</string>
   <string name="DefaultMimeType">none/none</string>
   <string name="Chat">Chat</string>
 
@@ -4072,6 +4072,6 @@ Try enclosing path to the editor with double quotes.
   <string name="Right">Rechts</string>
 
   <!-- teleport_strings.xml's strings we need -->
-  <string name="completed_from">Teleport completed from</string>
+  <string name="completed_from">Teleport abgeschlossen von </string>
 
 </strings>
