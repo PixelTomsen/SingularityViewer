@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <floater can_close="true" can_drag_on_left="false" can_minimize="true"
  can_resize="false" height="440" min_height="100" min_width="100"
- name="floater_about" rect_control="FloaterAboutRect"
- title="Über Singularity Viewer" width="470">
+ name="floater_about" title="Über Singularity Viewer" rect_control="FloaterAboutRect" width="470">
+  
   <tab_container follows="all" bottom="1" border="false" left="10" height="414" width="450" name="about_tab" tab_position="top">
     <panel border="false" height="386" label="Info" help_topic="about_support_tab" name="support_panel">
       <text_editor parse_urls="true" follows="top|left" font="SansSerif" top="-1" bg_readonly_color="transparent" left="3" max_length="65536" name="support_editor" bottom="28" width="443" word_wrap="true"/>
@@ -22,7 +22,7 @@
       </text_editor>
     </panel>
 
-    <panel border="false" label="Lizensen" height="386" name="licenses_panel">
+    <panel border="false" label="Lizenzen" height="386" name="licenses_panel">
       <!--Note to Translators: Please do not translate the following text_editor-->
       <text_editor enabled="false" follows="left|top" bg_readonly_color="transparent" left="3" max_length="65536" name="licenses_editor" top="-1" bottom="0" width="443" word_wrap="true">
         3Dconnexion SDK Copyright (C) 1992-2007 3Dconnexion

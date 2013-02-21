@@ -5,7 +5,7 @@
 	<menu bottom="273" create_jump_keys="true" drop_shadow="true" enabled="true"
 	     height="263" label="Datei" left="0" mouse_opaque="false" name="File"
 	     opaque="true" tear_off="false" width="243">
-		<menu_item_call bottom="-29" enabled="true" height="19" label="Beenden" left="0"
+		<menu_item_call bottom="-29" enabled="true" height="19" label="Abbrechen" left="0"
 		     mouse_opaque="true" name="Quit" shortcut="control|Q" width="243">
 			<on_click function="File.Quit" userdata="" />
 		</menu_item_call>

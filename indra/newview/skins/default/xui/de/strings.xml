@@ -76,17 +76,17 @@
   <!-- Tooltip, llhoverview.cpp -->
   <string name="TooltipPerson">Person</string>
   <!-- Object under mouse pointer is an avatar -->
-  <string name="TooltipNoName">(no name)</string>
+  <string name="TooltipNoName">(namenlos)</string>
   <!-- No name on an object -->
-  <string name="TooltipOwner">Owner:</string>
+  <string name="TooltipOwner">Eigentümer:</string>
   <!-- Owner name follows -->
-  <string name="TooltipPublic">Public</string>
+  <string name="TooltipPublic">Öffentlich</string>
   <!-- Public permissions on an object -->
-  <string name="TooltipIsGroup">(Group)</string>
+  <string name="TooltipIsGroup">(Gruppe)</string>
   <!-- The name before this text is that of a group -->
-  <string name="TooltipFlagScript">Script</string>
-  <string name="TooltipFlagPhysics">Physics</string>
-  <string name="TooltipFlagTouch">Touch</string>
+  <string name="TooltipFlagScript">Skript</string>
+  <string name="TooltipFlagPhysics">Physik</string>
+  <string name="TooltipFlagTouch">Berühren</string>
   <string name="TooltipFlagL$">[CURRENCY]</string>
   <string name="TooltipFlagDropInventory">Drop Inventory</string>
   <string name="TooltipFlagPhantom">Phantom</string>
@@ -95,7 +95,7 @@
   <string name="TooltipFreeToCopy">Free to copy</string>
   <string name="TooltipForSaleL$">For Sale: [CURRENCY][AMOUNT]</string>
   <!-- L$ version -->
-  <string name="TooltipForSaleMsg">For Sale: [MESSAGE]</string>
+  <string name="TooltipForSaleMsg">Zum Verkauf: [MESSAGE]</string>
   <!-- Message (RetrievingData) -->
   <string name="TooltipFlagGroupBuild">Group Build</string>
   <string name="TooltipFlagNoBuild">No Build</string>
@@ -103,8 +103,8 @@
   <string name="TooltipFlagNotSafe">Not Safe</string>
   <!-- damage area -->
   <string name="TooltipFlagNoFly">No Fly</string>
-  <string name="TooltipFlagGroupScripts">Group Scripts</string>
-  <string name="TooltipFlagNoScripts">No Scripts</string>
+  <string name="TooltipFlagGroupScripts">Gruppenskripte</string>
+  <string name="TooltipFlagNoScripts">Skripte aus</string>
   <string name="TooltipLand">Land:</string>
   <string name="TooltipMustSingleDrop">Only a single item can be dragged here</string>
 
@@ -136,16 +136,16 @@
 
   <!-- namecache -->
   <!-- Avatar name: text shown for LLUUID::null -->
-  <string name="AvatarNameNobody">(nobody)</string>
+  <string name="AvatarNameNobody">(niemand)</string>
 
   <!-- Avatar name: text shown while fetching name -->
-  <string name="AvatarNameWaiting">(waiting)</string>
+  <string name="AvatarNameWaiting">(warten)</string>
 
   <!-- Avatar name: text shown as an alternative to AvatarNameFetching, easter egg. -->
   <string name="AvatarNameHippos">(hippos)</string>
 
   <!-- Group name: text shown for LLUUID::null -->
-  <string name="GroupNameNone">(none)</string>
+  <string name="GroupNameNone">(keine)</string>
 
   <!-- Asset errors. Used in llassetstorage.cpp, translation from error code to error message. -->
   <string name="AssetErrorNone">No error</string>
@@ -194,8 +194,8 @@
   <string name="favorite">Favoriten</string>
   <string name="symbolic link">Link</string>
   <string name="symbolic folder link">Link zu Ordner</string>
-  <string name="current outfit">Aktuelles Outfit</string>
-  <string name="outfit">Outfit</string>
+  <string name="current outfit">Aktuelles Aussehen</string>
+  <string name="outfit">Aussehen</string>
   <string name="my outfits">Meine Outfits</string>
   <string name="mesh">Mesh</string>
 
@@ -203,7 +203,7 @@
   <string name="AvatarEditingAppearance">(Editing Appearance)</string>
   <string name="AvatarAway">Abwesend</string>
   <string name="AvatarBusy">Beschäftigt</string>
-  <string name="AvatarMuted">Stumm</string>
+  <string name="AvatarMuted">Stummgeschaltet</string>
   <!-- "AvatarLangolier" is used for an avatar that teleported into a Time Frozen scene (only their moving tag is visible).
 		 A Langolier is a creature from Stephen Kings "The Langoliers" that exists outside time and lives by eating the past. -->
   <string name="AvatarLangolier">Langolier</string>
