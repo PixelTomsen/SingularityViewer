@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<pie_menu name="Avatar Pie">
+  <menu_item_call enabled="false" label="Profil anzeigen" mouse_opaque="true" name="Profile...">
+    <on_click function="ShowAgentProfile" userdata="hit object" />
+  </menu_item_call>
+  <menu_item_call enabled="false" label="Ignorieren" mouse_opaque="true" name="Avatar Mute">
+    <on_click function="Avatar.Mute" />
+    <on_enable function="Avatar.EnableMute" />
+  </menu_item_call>
+  <menu_item_call enabled="false" label="Hingehen" mouse_opaque="true" name="Go To">
+    <on_click function="GoToObject" />
+  </menu_item_call>
+  <menu_item_call enabled="true" label="Melden" mouse_opaque="true" name="abuse">
+    <on_click function="Avatar.ReportAbuse" />
+  </menu_item_call>
+  <menu_item_call enabled="false" label="Freund hinzufügen" mouse_opaque="true" name="Add Friend">
+    <on_click function="Avatar.AddFriend" />
+    <on_enable function="Avatar.EnableAddFriend" />
+  </menu_item_call>
+  <menu_item_call enabled="false" label="Bezahlen" mouse_opaque="true" name="Pay...">
+    <on_click function="PayObject" />
+    <on_enable function="EnablePayObject" />
+  </menu_item_call>
+  <pie_menu label="Mehr &gt;" name="More &gt;">
+    <menu_item_call enabled="false" label="Einfrieren" mouse_opaque="true" name="Freeze...">
+      <on_click function="Avatar.Freeze" />
+      <on_enable function="Avatar.EnableFreezeEject" />
+    </menu_item_call>
+    <menu_item_call enabled="false" label="Visitenkarte" mouse_opaque="true" name="Give Card">
+      <on_click function="Avatar.GiveCard" />
+    </menu_item_call>
+    <menu_item_call enabled="true" label="In Gruppe einladen" mouse_opaque="true" name="Invite...">
+      <on_click function="Avatar.InviteToGroup" />
+    </menu_item_call>
+    <pie_menu label="Werkzeuge &gt;" name="Tools &gt;">
+      <menu_item_call enabled="false" hidden="false" label="Skript Anzahl" mouse_opaque="true" name="ScriptCount">
+        <on_click function="Object.ScriptCount" />
+        <on_visible function="Object.VisibleScriptCount" />
+      </menu_item_call>
+      <menu_item_call enabled="true" label="UUID kopieren" mouse_opaque="true" name="CopyUUID">
+        <on_click function="Avatar.CopyUUID" />
+      </menu_item_call>
+      <menu_item_call enabled="false" hidden="false" label="Client ID" mouse_opaque="true" name="ClientID">
+        <on_click function="Avatar.ClientID" />
+      </menu_item_call>
+      <menu_item_call enabled="true" label="Derender" mouse_opaque="true" name="Derender">
+        <on_click function="Object.DERENDER" />
+      </menu_item_call>
+      <menu_item_call enabled="true" label="Reload" mouse_opaque="true" name="Reload Textures">
+        <on_click function="Avatar.ReloadTextures" />
+      </menu_item_call>
+    </pie_menu>
+    <menu_item_call enabled="false" label="Hinauswerfen" mouse_opaque="true" name="Eject...">
+      <on_click function="Avatar.Eject" />
+      <on_enable function="Avatar.EnableFreezeEject" />
+    </menu_item_call>
+    <menu_item_separator />
+    <menu_item_call enabled="true" label="Untersuchen" mouse_opaque="true" name="Object Inspect">
+      <on_click function="Object.Inspect" />
+      <on_enable function="Object.EnableInspect" />
+    </menu_item_call>
+  </pie_menu>
+  <menu_item_call enabled="false" label="Nachricht schicken" mouse_opaque="true" name="Send IM...">
+    <on_click function="Avatar.SendIM" />
+  </menu_item_call>
+</pie_menu>

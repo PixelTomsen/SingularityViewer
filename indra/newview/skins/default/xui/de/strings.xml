@@ -9,7 +9,7 @@
   <string name="GRID_OWNER">Linden Lab</string>
 
   <string name="hippo_label_free">free</string>
-  <string name="hippo_label_week">week</string>
+  <string name="hippo_label_week">Woche</string>
   <string name="TeleportOfferMaturity">
     [NAME] is offering a TP to [DESTINATION]
   </string>
@@ -88,40 +88,40 @@
   <string name="TooltipFlagPhysics">Physik</string>
   <string name="TooltipFlagTouch">Berühren</string>
   <string name="TooltipFlagL$">[CURRENCY]</string>
-  <string name="TooltipFlagDropInventory">Drop Inventory</string>
+  <string name="TooltipFlagDropInventory">Inventar fallen lassen</string>
   <string name="TooltipFlagPhantom">Phantom</string>
-  <string name="TooltipFlagTemporary">Temporary</string>
+  <string name="TooltipFlagTemporary">Temporär</string>
   <string name="TooltipFlagRightClickMenu">(Right-click for menu)</string>
   <string name="TooltipFreeToCopy">Free to copy</string>
-  <string name="TooltipForSaleL$">For Sale: [CURRENCY][AMOUNT]</string>
+  <string name="TooltipForSaleL$">Zum Verkauf: [CURRENCY][AMOUNT]</string>
   <!-- L$ version -->
   <string name="TooltipForSaleMsg">Zum Verkauf: [MESSAGE]</string>
   <!-- Message (RetrievingData) -->
-  <string name="TooltipFlagGroupBuild">Group Build</string>
-  <string name="TooltipFlagNoBuild">No Build</string>
-  <string name="TooltipFlagNoEdit">Group Build</string>
-  <string name="TooltipFlagNotSafe">Not Safe</string>
+  <string name="TooltipFlagGroupBuild">Gruppenbau</string>
+  <string name="TooltipFlagNoBuild">Kein Bauen</string>
+  <string name="TooltipFlagNoEdit">Editieren aus</string>
+  <string name="TooltipFlagNotSafe">Unsicher</string>
   <!-- damage area -->
-  <string name="TooltipFlagNoFly">No Fly</string>
+  <string name="TooltipFlagNoFly">Fliegen aus</string>
   <string name="TooltipFlagGroupScripts">Gruppenskripte</string>
   <string name="TooltipFlagNoScripts">Skripte aus</string>
   <string name="TooltipLand">Land:</string>
-  <string name="TooltipMustSingleDrop">Only a single item can be dragged here</string>
+  <string name="TooltipMustSingleDrop">Du kannst nur ein einzelnes Objekt hierher ziehen</string>
 
-  <string name="TooltipOutboxDragToWorld">You can not rez items in your merchant outbox</string>
+  <string name="TooltipOutboxDragToWorld">Du kannst Artikel nicht in Deiner Händler-Outbox rezzen</string>
   <string name="TooltipOutboxNoTransfer">One or more of these objects cannot be sold or transferred.</string>
   <string name="TooltipOutboxNotInInventory">Your merchant outbox can only accept items directly from your inventory</string>
   <string name="TooltipOutboxWorn">You can not put items you are wearing into your merchant outbox</string>
   <string name="TooltipOutboxCallingCard">You can not put calling cards into your merchant outbox</string>
   <string name="TooltipOutboxFolderLevels">Depth of nested folders exceeds 3</string>
-  <string name="TooltipOutboxTooManyFolders">Subfolder count in top-level folder exceeds 20</string>
-  <string name="TooltipOutboxTooManyObjects">Item count in top-level folder exceeds 200</string>
+  <string name="TooltipOutboxTooManyFolders">Anzahl von Unterordnern im obersten Ordner überschreitet 20</string>
+  <string name="TooltipOutboxTooManyObjects">Anzahl von Artikeln im obersten Ordner überschreitet 200</string>
 
-  <string name="TooltipDragOntoOwnChild">You can't move a folder into its child</string>
-  <string name="TooltipDragOntoSelf">You can't move a folder into itself</string>
+  <string name="TooltipDragOntoOwnChild">Du kannst einen Ordner nicht in einen seiner untergeordneten Ordner verschieben</string>
+  <string name="TooltipDragOntoSelf">Du kannst einen Ordner nicht in sich selbst verschieben</string>
 
   <!-- searching - generic -->
-  <string name="Searching">Suchen...</string>
+  <string name="Searching">Suche...</string>
   <string name="NoneFound">Nicht gefunden.</string>
 
   <!-- Indicates that an avatar's name or other similar datum is being retrieved. General usage. -->
@@ -158,7 +158,7 @@
   <string name="AssetErrorTCPTimeout">File transfer timeout</string>
   <string name="AssetErrorCircuitGone">Circuit gone</string>
   <string name="AssetErrorPriceMismatch">Viewer and server do not agree on price</string>
-  <string name="AssetErrorUnknownStatus">Unknown status</string>
+  <string name="AssetErrorUnknownStatus">Unbekannter Zustand</string>
 
   <!-- Asset Type human readable names:  these will replace variable [TYPE] in notification FailedToFindWearable* -->
   <!-- Will also replace [OBJECTTYPE] in notifications: UserGiveItem, ObjectGiveItem -->
@@ -169,14 +169,14 @@
   <string name="Inventory">Inventar</string>
   <string name="Instant Message">Instant Message</string>
   <string name="Script Dialog">Skript Dialog</string>
-  <string name="Sound Preload">sound preload</string>
+  <string name="Sound Preload">Sound vorladen</string>
   <string name="Teleport">Teleport</string>
   <string name="Unknown">Unbekannt</string>
   <string name="landmark">Landmarke</string>
   <string name="legacy script">Skript (veraltet)</string>
   <string name="clothing">Kleidung</string>
   <string name="object">Objekt</string>
-  <string name="note card">Notizkarte</string>
+  <string name="note card">Notiz</string>
   <string name="folder">Ordner</string>
   <string name="root">Hauptverzeichnis</string>
   <string name="lsl2 script">LSL2 Skript</string>
@@ -186,7 +186,7 @@
   <string name="snapshot">Foto</string>
   <string name="lost and found">Fundbüro</string>
   <string name="targa image">Targa-Bild</string>
-  <string name="trash">Mülleimer</string>
+  <string name="trash">Papierkorb</string>
   <string name="jpeg image">JPEG-Bild</string>
   <string name="animation">Animation</string>
   <string name="gesture">Geste</string>
@@ -197,122 +197,122 @@
   <string name="current outfit">Aktuelles Aussehen</string>
   <string name="outfit">Aussehen</string>
   <string name="my outfits">Meine Outfits</string>
-  <string name="mesh">Mesh</string>
+  <string name="mesh">Modell</string>
 
   <!-- llvoavatar. Displayed in the avatar's chat bubble -->
-  <string name="AvatarEditingAppearance">(Editing Appearance)</string>
+  <string name="AvatarEditingAppearance">(Aussehen wird bearbeitet)</string>
   <string name="AvatarAway">Abwesend</string>
   <string name="AvatarBusy">Beschäftigt</string>
-  <string name="AvatarMuted">Stummgeschaltet</string>
+  <string name="AvatarMuted">Ignoriert</string>
   <!-- "AvatarLangolier" is used for an avatar that teleported into a Time Frozen scene (only their moving tag is visible).
 		 A Langolier is a creature from Stephen Kings "The Langoliers" that exists outside time and lives by eating the past. -->
   <string name="AvatarLangolier">Langolier</string>
 
   <!-- animations -->
-  <string name="anim_express_afraid">Afraid</string>
-  <string name="anim_express_anger">Angry</string>
-  <string name="anim_away">Away</string>
-  <string name="anim_backflip">Backflip</string>
-  <string name="anim_express_laugh">Belly Laugh</string>
-  <string name="anim_express_toothsmile">BigSmile</string>
-  <string name="anim_blowkiss">Blow Kiss</string>
-  <string name="anim_express_bored">Bored</string>
-  <string name="anim_bow">Bow</string>
-  <string name="anim_clap">Clap</string>
-  <string name="anim_courtbow">Court Bow</string>
-  <string name="anim_express_cry">Cry</string>
-  <string name="anim_dance1">Dance 1</string>
-  <string name="anim_dance2">Dance 2</string>
-  <string name="anim_dance3">Dance 3</string>
-  <string name="anim_dance4">Dance 4</string>
-  <string name="anim_dance5">Dance 5</string>
-  <string name="anim_dance6">Dance 6</string>
-  <string name="anim_dance7">Dance 7</string>
-  <string name="anim_dance8">Dance 8</string>
-  <string name="anim_express_disdain">Disdain</string>
-  <string name="anim_drink">Drink</string>
-  <string name="anim_express_embarrased">Embarrassed</string>
-  <string name="anim_angry_fingerwag">Finger Wag</string>
-  <string name="anim_fist_pump">Fist Pump</string>
-  <string name="anim_yoga_float">Floating Yoga</string>
-  <string name="anim_express_frown">Frown</string>
-  <string name="anim_impatient">Impatient</string>
-  <string name="anim_jumpforjoy">Jump For Joy</string>
-  <string name="anim_kissmybutt">Kiss My Butt</string>
-  <string name="anim_express_kiss">Kiss</string>
-  <string name="anim_laugh_short">Laugh</string>
-  <string name="anim_musclebeach">Muscle Beach</string>
-  <string name="anim_no_unhappy">No (Unhappy)</string>
-  <string name="anim_no_head">No</string>
-  <string name="anim_nyanya">Nya-nya-nya</string>
-  <string name="anim_punch_onetwo">One-Two Punch</string>
-  <string name="anim_express_open_mouth">Open Mouth</string>
-  <string name="anim_peace">Peace</string>
-  <string name="anim_point_you">Point at Other</string>
-  <string name="anim_point_me">Point at Self</string>
-  <string name="anim_punch_l">Punch Left</string>
-  <string name="anim_punch_r">Punch Right</string>
+  <string name="anim_express_afraid">Ängstlich</string>
+  <string name="anim_express_anger">Verärgert</string>
+  <string name="anim_away">Abwesend</string>
+  <string name="anim_backflip">Rückwärtssalto</string>
+  <string name="anim_express_laugh">Lachkrampf</string>
+  <string name="anim_express_toothsmile">Grinsen</string>
+  <string name="anim_blowkiss">Kusshand</string>
+  <string name="anim_express_bored">Gelangweilt</string>
+  <string name="anim_bow">Verbeugen</string>
+  <string name="anim_clap">Klatschen</string>
+  <string name="anim_courtbow">Diener</string>
+  <string name="anim_express_cry">Weinen</string>
+  <string name="anim_dance1">Tanz 1</string>
+  <string name="anim_dance2">Tanz 2</string>
+  <string name="anim_dance3">Tanz 3</string>
+  <string name="anim_dance4">Tanz 4</string>
+  <string name="anim_dance5">Tanz 5</string>
+  <string name="anim_dance6">Tanz 6</string>
+  <string name="anim_dance7">Tanz 7</string>
+  <string name="anim_dance8">Tanz 8</string>
+  <string name="anim_express_disdain">Verachten</string>
+  <string name="anim_drink">Trinken</string>
+  <string name="anim_express_embarrased">Verlegen</string>
+  <string name="anim_angry_fingerwag">Drohen</string>
+  <string name="anim_fist_pump">Faust pumpen</string>
+  <string name="anim_yoga_float">Yogaflieger</string>
+  <string name="anim_express_frown">Stirnrunzeln</string>
+  <string name="anim_impatient">Ungeduldig</string>
+  <string name="anim_jumpforjoy">Freudensprung</string>
+  <string name="anim_kissmybutt">L-m-a-A</string>
+  <string name="anim_express_kiss">Küssen</string>
+  <string name="anim_laugh_short">Lachen</string>
+  <string name="anim_musclebeach">Posen</string>
+  <string name="anim_no_unhappy">Nein (Bedauernd)</string>
+  <string name="anim_no_head">Nein</string>
+  <string name="anim_nyanya">Ällabätsch</string>
+  <string name="anim_punch_onetwo">Eins-Zwei-Punch</string>
+  <string name="anim_express_open_mouth">Mund offen</string>
+  <string name="anim_peace">Friede</string>
+  <string name="anim_point_you">Auf anderen zeigen</string>
+  <string name="anim_point_me">Auf mich zeigen</string>
+  <string name="anim_punch_l">Linker Haken</string>
+  <string name="anim_punch_r">Rechter Haken</string>
   <string name="anim_rps_countdown">RPS count</string>
   <string name="anim_rps_paper">RPS paper</string>
   <string name="anim_rps_rock">RPS rock</string>
   <string name="anim_rps_scissors">RPS scissors</string>
-  <string name="anim_express_repulsed">Repulsed</string>
-  <string name="anim_kick_roundhouse_r">Roundhouse Kick</string>
-  <string name="anim_express_sad">Sad</string>
-  <string name="anim_salute">Salute</string>
-  <string name="anim_shout">Shout</string>
-  <string name="anim_express_shrug">Shrug</string>
-  <string name="anim_express_smile">Smile</string>
-  <string name="anim_smoke_idle">Smoke Idle</string>
-  <string name="anim_smoke_inhale">Smoke Inhale</string>
-  <string name="anim_smoke_throw_down">Smoke Throw Down</string>
-  <string name="anim_express_surprise">Surprise</string>
-  <string name="anim_sword_strike_r">Sword Strike</string>
-  <string name="anim_angry_tantrum">Tantrum</string>
-  <string name="anim_express_tongue_out">TongueOut</string>
-  <string name="anim_hello">Wave</string>
-  <string name="anim_whisper">Whisper</string>
-  <string name="anim_whistle">Whistle</string>
-  <string name="anim_express_wink">Wink</string>
-  <string name="anim_wink_hollywood">Wink (Hollywood)</string>
-  <string name="anim_express_worry">Worry</string>
-  <string name="anim_yes_happy">Yes (Happy)</string>
-  <string name="anim_yes_head">Yes</string>
+  <string name="anim_express_repulsed">Angewidert</string>
+  <string name="anim_kick_roundhouse_r">Rundkick</string>
+  <string name="anim_express_sad">Traurig</string>
+  <string name="anim_salute">Salutieren</string>
+  <string name="anim_shout">Rufen</string>
+  <string name="anim_express_shrug">Schulterzucken</string>
+  <string name="anim_express_smile">Lächeln</string>
+  <string name="anim_smoke_idle">Zigarette halten</string>
+  <string name="anim_smoke_inhale">Rauchen</string>
+  <string name="anim_smoke_throw_down">Zigarette wegwerfen</string>
+  <string name="anim_express_surprise">Überraschung</string>
+  <string name="anim_sword_strike_r">Schwerthieb</string>
+  <string name="anim_angry_tantrum">Wutanfall</string>
+  <string name="anim_express_tongue_out">Zunge rausstrecken</string>
+  <string name="anim_hello">Winken</string>
+  <string name="anim_whisper">Flüstern</string>
+  <string name="anim_whistle">Pfeifen</string>
+  <string name="anim_express_wink">Zwinkern</string>
+  <string name="anim_wink_hollywood">Zwinkern (Hollywood)</string>
+  <string name="anim_express_worry">Sorgenvoll</string>
+  <string name="anim_yes_happy">Ja (Erfreut)</string>
+  <string name="anim_yes_head">Ja</string>
 
   <!-- build floater -->
-  <string name="multiple_textures">Multiple</string>
+  <string name="multiple_textures">Mehrfach</string>
 
   <!-- world map -->
-  <string name="texture_loading">Lade...</string>
+  <string name="texture_loading">Wird geladen...</string>
   <string name="worldmap_offline">Offline</string>
-  <string name="worldmap_results_none_found">None found.</string>
+  <string name="worldmap_results_none_found">Nicht gefunden.</string>
 
   <!-- animations uploading status codes -->
   <string name="Ok">OK</string>
   <!-- Chat -->
-  <string name="whisper">whispers:</string>
-  <string name="shout">shouts:</string>
-  <string name="ringing">Connecting to in-world Voice Chat...</string>
-  <string name="connected">Connected</string>
-  <string name="unavailable">Voice not available at your current location</string>
-  <string name="hang_up">Disconnected from in-world Voice Chat</string>
-  <string name="ScriptTakeMoney">Take currency from you</string>
+  <string name="whisper">flüstert:</string>
+  <string name="shout">ruft:</string>
+  <string name="ringing">Verbindung mit In-Welt-Voice-Chat...</string>
+  <string name="connected">Verbunden</string>
+  <string name="unavailable">Der aktuelle Standort unterstützt keine Voice-Kommunikation</string>
+  <string name="hang_up">Verbindung mit In-Welt-Voice-Chat getrennt</string>
+  <string name="ScriptTakeMoney">Linden-Dollar (L$) von Ihnen nehmen</string>
   <string name="ActOnControlInputs">Act on your control inputs</string>
   <string name="RemapControlInputs">Remap your control inputs</string>
   <string name="AnimateYourAvatar">Animate your avatar</string>
-  <string name="AttachToYourAvatar">Attach to your avatar</string>
+  <string name="AttachToYourAvatar">An Avatar anhängen</string>
   <string name="AGroupMemberNamed">A group member named</string>
-  <string name="ReleaseOwnership">Release ownership and become public</string>
-  <string name="LinkAndDelink">Link and delink from other objects</string>
-  <string name="AddAndRemoveJoints">Add and remove joints with other objects</string>
-  <string name="ChangePermissions">Change its permissions</string>
-  <string name="TrackYourCamera">Track your camera</string>
-  <string name="ControlYourCamera">Control your camera</string>
-  <string name="TeleportYourAgent">Teleport you</string>
+  <string name="ReleaseOwnership">Eigentum aufgeben und öffentlich machen</string>
+  <string name="LinkAndDelink">Mit Objekten verknüpfen und davon trennen</string>
+  <string name="AddAndRemoveJoints">Verbindungen zu anderen Objekten hinzufügen und entfernen</string>
+  <string name="ChangePermissions">Berechtigungen ändern</string>
+  <string name="TrackYourCamera">Kameraverfolgung aktivieren</string>
+  <string name="ControlYourCamera">Kamerasteuerung übernehmen</string>
+  <string name="TeleportYourAgent">Du teleportierst</string>
 
   <!-- Sim Access labels -->
-  <string name="SIM_ACCESS_PG">PG</string>
-  <string name="SIM_ACCESS_MATURE">Mature</string>
+  <string name="SIM_ACCESS_PG">Generell</string>
+  <string name="SIM_ACCESS_MATURE">Moderat</string>
   <string name="SIM_ACCESS_ADULT">Adult</string>
   <string name="SIM_ACCESS_DOWN">Offline</string>
   <string name="SIM_ACCESS_MIN">Unbekannt</string>
@@ -333,7 +333,7 @@
   <string name="load_file_verb">Laden</string>
   <string name="targa_image_files">Targa Bilder</string>
   <string name="bitmap_image_files">Bitmap Bilder</string>
-  <string name="avi_movie_file">AVI Movie File</string>
+  <string name="avi_movie_file">AVI Film-Datei</string>
   <string name="xaf_animation_file">XAF Anim File</string>
   <string name="xml_file">XML Datei</string>
   <string name="raw_file">RAW Datei</string>
@@ -3333,7 +3333,7 @@
   <string name="All White">All White</string>
   <string name="Anime Eyes">Anime Eyes</string>
   <string name="Arced">Arched</string>
-  <string name="Arm Length">Arm Length</string>
+  <string name="Arm Length">Arm Länge</string>
   <string name="Attached">Attached</string>
   <string name="Attached Earlobes">Attached Earlobes</string>
 
@@ -3918,7 +3918,7 @@
     Left voice call
   </string>
   <string name="answering-im">
-    Connecting...
+    Verbinde...
   </string>
   <string name="inventory_item_offered-im">
     Inventory item offered
@@ -3929,7 +3929,7 @@
     You are the only user in this session.
   </string>
   <string name="offline_message">
-    [NAME] is offline.
+    [NAME] ist offline.
   </string>
   <string name="invite_message">
     Click the [BUTTON NAME] button to accept/connect to this voice chat.
@@ -4003,38 +4003,38 @@
     You no longer have the ability to be in the chat session.
   </string>
 
-  <string name="Home position set.">Home position set.</string>
+  <string name="Home position set.">Position für Zuhause festgelegt.</string>
 
   <!-- Financial operations strings -->
-  <string name="paid_you_ldollars">[NAME] paid you L$[AMOUNT] [REASON].</string>
-  <string name="paid_you_ldollars_no_reason">[NAME] paid you L$[AMOUNT].</string>
-  <string name="you_paid_ldollars">You paid [NAME] L$[AMOUNT] [REASON].</string>
-  <string name="you_paid_ldollars_no_info">You paid L$[AMOUNT].</string>
-  <string name="you_paid_ldollars_no_reason">You paid [NAME] L$[AMOUNT].</string>
-  <string name="you_paid_ldollars_no_name">You paid L$[AMOUNT] [REASON].</string>
-  <string name="you_paid_failure_ldollars">You failed to pay [NAME] L$[AMOUNT] [REASON].</string>
-  <string name="you_paid_failure_ldollars_no_info">You failed to pay L$[AMOUNT].</string>
-  <string name="you_paid_failure_ldollars_no_reason">You failed to pay [NAME] L$[AMOUNT].</string>
-  <string name="you_paid_failure_ldollars_no_name">You failed to pay L$[AMOUNT] [REASON].</string>
-  <string name="for item">for [ITEM]</string>
-  <string name="for a parcel of land">for a parcel of land</string>
-  <string name="for a land access pass">for a land access pass</string>
-  <string name="for deeding land">for deeding land</string>
-  <string name="to create a group">to create a group</string>
-  <string name="to join a group">to join a group</string>
-  <string name="to upload">to upload</string>
-  <string name="to publish a classified ad">to publish a classified ad</string>
+  <string name="paid_you_ldollars">[NAME] hat Dir [REASON] [CURRENCY] bezahlt.</string>
+  <string name="paid_you_ldollars_no_reason">[NAME] hat Dir [CURRENCY] bezahlt.</string>
+  <string name="you_paid_ldollars">Du hast [REASON] [[CURRENCY] an [NAME] bezahlt.</string>
+  <string name="you_paid_ldollars_no_info">Du hast [CURRENCY] bezahlt.</string>
+  <string name="you_paid_ldollars_no_reason">Du hast [CURRENCY] an [NAME] bezahlt.</string>
+  <string name="you_paid_ldollars_no_name">Du hast [REASON] [CURRENCY] bezahlt.</string>
+  <string name="you_paid_failure_ldollars">Du hast [NAME] [CURRENCY] [REASON] nicht bezahlt.</string>
+  <string name="you_paid_failure_ldollars_no_info">You failed to pay [CURRENCY].</string>
+  <string name="you_paid_failure_ldollars_no_reason">You failed to pay [NAME] [CURRENCY].</string>
+  <string name="you_paid_failure_ldollars_no_name">You failed to pay [CURRENCY] [REASON].</string>
+  <string name="for item">für [ITEM]</string>
+  <string name="for a parcel of land">für eine Landparzelle</string>
+  <string name="for a land access pass">für einen Pass</string>
+  <string name="for deeding land">für die Landübertragung</string>
+  <string name="to create a group">für die Gründung einer Gruppe</string>
+  <string name="to join a group">für den Beitritt zur Gruppe</string>
+  <string name="to upload">fürs Hochladen</string>
+  <string name="to publish a classified ad">um eine Anzeige aufzugeben</string>
 
-  <string name="giving">Giving [CURRENCY]</string>
-  <string name="this_costs">This costs [CURRENCY]</string>
+  <string name="giving">[CURRENCY] werden bezahlt.</string>
+  <string name="this_costs">Dies kostet [CURRENCY]</string>
 
-  <string name="group_role_everyone">Everyone</string>
-  <string name="group_role_officers">Officers</string>
+  <string name="group_role_everyone">Jeder</string>
+  <string name="group_role_officers">Offiziere</string>
   <string name="group_role_owners">Eigentümer</string>
   <string name="group_member_status_online">Online</string>
 
   <string name="uploading_abuse_report">
-    Bericht wird hochgeladen...
+    Hochladen...Missbrauchsbericht
 
     Abuse Report
   </string>
